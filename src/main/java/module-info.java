@@ -5,4 +5,6 @@ module hospital.simulator {
 
     opens hospital.simulator to javafx.fxml;
     exports hospital.simulator;
+    exports hospital.simulator.controllers;
+    opens hospital.simulator.controllers to javafx.fxml;
 }
